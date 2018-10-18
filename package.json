@@ -1,0 +1,24 @@
+{
+  "name": "factorise",
+  "version": "0.0.1",
+  "contributors": [
+    "Randy Vroegop"
+  ],
+  "license": "",
+  "repository": "",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint -c tslint.json './*.ts'",
+    "test": "mocha -r ts-node/register test/**/*.spec.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/chai": "^4.1.6",
+    "@types/mocha": "^5.2.5",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.3"
+  }
+}
